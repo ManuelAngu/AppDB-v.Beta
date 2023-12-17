@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contacto_Activity"
+    android:background="@color/MarronOscuro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="663dp"
+        android:layout_above="@+id/btnEnviar"
+        android:layout_marginBottom="-4dp"
+        android:paddingStart="25dp"
+        android:paddingTop="25dp"
+        android:paddingEnd="25dp"
+        android:paddingBottom="25dp"
+        android:text="¡Estimada comunidad de usuarios!\n\nQueremos asegurarnos de que su experiencia con nuestra aplicación sea lo mejor posible. Si en algún momento encuentran alguna incidencia o error, no duden en hacérnoslo saber. Su colaboración es de un valor incalculable para nosotros y nos ayudará a mejorar la aplicación.\n\nAdemás, si tienen alguna duda acerca de una planta que creen que debería incluirse en nuestra base de datos, estaremos encantados de considerarla. Estamos comprometidos a ofrecer el contenido más relevante y útil para todos ustedes.\n\nNo duden en contactarnos para cualquier comentario, pregunta o sugerencia. Su participación es fundamental para hacer de esta aplicación algo extraordinario.\n\nAgradecemos su apoyo continuo y esperamos seguir mejorando juntos.\n\n¡Saludos cordiales,"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+</ScrollView>
+
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="343dp"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Enviar Correo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

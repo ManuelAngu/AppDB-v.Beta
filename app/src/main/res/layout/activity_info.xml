@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info_Activity"
+    android:background="@color/MarronOscuro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.3"
+            android:text="Esta aplicación ha sido desarrollada con la finalidad de brindar orientación a los excursionistas que transitan por la región mediterránea, ofreciendo información detallada acerca de las especies vegetales más preponderantes en dicho entorno.\n\nEn este sentido, se proporciona un análisis pormenorizado de aquellas que son apropiadas para la recolección, así como de aquellas que es recomendable evitar.\n\nSu principal utilidad se manifiesta al proveer este tipo de información botánica en escenarios donde el dispositivo del usuario carece acesso a una red de datos, circunstancia habitual en zonas de gran afluencia de senderistas donde la disponibilidad de señal es limitada.\n\nEsta particularidad impide la viabilidad de aplicaciones como Google Lens u otras herramientas de índole similar."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.482"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
